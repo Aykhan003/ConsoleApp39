@@ -1,4 +1,4 @@
-﻿namespace ConsoleApp39
+﻿namespace ConsoleApp39.Models.HotelReservationSystem
 {
     internal class NotFoundException : Exception
     {
