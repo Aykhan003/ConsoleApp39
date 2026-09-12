@@ -82,6 +82,21 @@
                 }
             }
         }
+        public Park(ParkingSpot[] parkingSpots)
+        {
+            this._parkingSpots  = parkingSpots;
+        }
+        public ParkingSpot this[int index]
+        {
+            get
+            {
+                return _parkingSpots[index];
+            }
+            set
+            {
+                _parkingSpots[index] = value;
+            }
+        }
     }
 
     [Serializable]
